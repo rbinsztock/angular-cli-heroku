@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
+## Yarn
+
+Run `npm install -g yarn` then `yarn install`.
+
+If you want to use npm instead of yarn, change the yarn declaraction inside package.json for `npm : "3.10.9"` and delete `yarn.lock`.
+
 ## Development server
 
 Run `ng serve` or `npm run dev` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -12,7 +18,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Deploy on Heroku
 
-First you need heroku toolbelt `https://devcenter.heroku.com/articles/heroku-cli#download-and-instal`
+First you need heroku toolbelt `https://devcenter.heroku.com/articles/heroku-cli#download-and-instal`.
 
 Run `heroku create` to create a new application on Heroku.
 
