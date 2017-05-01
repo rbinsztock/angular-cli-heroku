@@ -12,6 +12,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Deploy on Heroku
 
+First you need heroku toolbelt `https://devcenter.heroku.com/articles/heroku-cli#download-and-instal`
+
+Run `heroku create` to create a new application on Heroku.
+
 Run `npm run deploy` Heroku will handle the bundle of the application to `dist/` folder and run it via express.
 
 ## Build
